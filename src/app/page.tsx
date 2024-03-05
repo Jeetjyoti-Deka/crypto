@@ -1,4 +1,5 @@
 import Chart from "@/components/Chart";
+import GetStartedSection from "@/components/GetStartedSection";
 
 export default async function Home() {
   // const queryString = new URLSearchParams({
@@ -12,5 +13,17 @@ export default async function Home() {
   // const data = await res.json();
   // console.log(data);
 
-  return <main>{/* <Chart /> */}</main>;
+  return (
+    <main>
+      {/* <Chart /> */}
+      <div className="grid grid-cols-body">
+        <div className="justify-self-center">
+          <h1>hi there</h1>
+        </div>
+        <div className="justify-self-center">
+          <GetStartedSection />
+        </div>
+      </div>
+    </main>
+  );
 }
