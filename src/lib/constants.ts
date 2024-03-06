@@ -12,3 +12,16 @@ export const NAV_LINKS = [
     route: "/",
   },
 ];
+
+export const CALCULATE_LINKS = [
+  {
+    title: "Calculate your Profits",
+    img: "/images/calculate_link_1.png",
+    className: "bg-calculate_link_1",
+  },
+  {
+    title: "Calculate your tax liability",
+    img: "/images/calculate_link_2.png",
+    className: "bg-calculate_link_2",
+  },
+];

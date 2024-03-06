@@ -79,6 +79,12 @@ const config = {
       gridTemplateColumns: {
         body: "minmax(900px, 2fr) minmax(400px, 1fr)",
       },
+      backgroundImage: {
+        calculate_link_1:
+          "linear-gradient(160deg, rgba(15,186,131,1) 0%, rgba(0,82,254,1) 100%)",
+        calculate_link_2:
+          "linear-gradient(160deg, rgba(250,160,2,1) 0%, rgba(247,50,76,1) 100%)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

@@ -1,3 +1,4 @@
+import AboutBitcoinSection from "@/components/AboutBitcoinSection";
 import Chart from "@/components/Chart";
 import GetStartedSection from "@/components/GetStartedSection";
 
@@ -17,8 +18,8 @@ export default async function Home() {
     <main>
       {/* <Chart /> */}
       <div className="grid grid-cols-body">
-        <div className="justify-self-center">
-          <h1>hi there</h1>
+        <div className="justify-self-center w-full pl-12">
+          <AboutBitcoinSection />
         </div>
         <div className="justify-self-center">
           <GetStartedSection />
