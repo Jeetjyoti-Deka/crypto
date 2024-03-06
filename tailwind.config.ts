@@ -20,6 +20,7 @@ const config = {
     extend: {
       colors: {
         "primary-blue": "rgb(0, 82, 254)",
+        "secondary-blue": "rgb(232, 244, 253)",
         "primary-green": "rgb(15, 186, 131)",
         "primary-orange": "rgb(250, 160, 2)",
         "primary-red": "rgb(247, 50, 76)",

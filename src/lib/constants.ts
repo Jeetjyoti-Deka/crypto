@@ -25,3 +25,18 @@ export const CALCULATE_LINKS = [
     className: "bg-calculate_link_2",
   },
 ];
+
+export const TEAM_MEMBERS = [
+  {
+    name: "John Smith",
+    img: "/images/team_img_1.png",
+  },
+  {
+    name: "Elina Williams",
+    img: "/images/team_img_2.png",
+  },
+  {
+    name: "J0hn Smith",
+    img: "/images/team_img_3.png",
+  },
+];
