@@ -32,7 +32,12 @@ function TradingViewWidget() {
     }
   }, []);
 
-  return <div className="tradingview-widget-container" ref={container}></div>;
+  return (
+    <div
+      className="tradingview-widget-container !h-[75%]"
+      ref={container}
+    ></div>
+  );
 }
 
 export default memo(TradingViewWidget);
