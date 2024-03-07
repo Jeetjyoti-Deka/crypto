@@ -3,7 +3,14 @@ import { Button } from "./ui/button";
 
 const GetStartedSection = () => {
   return (
-    <div className="bg-primary-blue flex flex-col items-center gap-y-4 max-w-[420px] rounded-[16px] justify-self-center text-white p-10">
+    <div className="bg-primary-blue flex flex-col items-center gap-y-4 max-w-[300px] sm:max-w-[420px] rounded-[16px] justify-self-center text-white p-10">
+      <Image
+        src="/images/get_started_img.svg"
+        alt="img"
+        width={200}
+        height={200}
+        className="my-4 ml-4 block lg:hidden"
+      />
       <h1 className="text-2xl font-bold text-center max-w-[310px] tracking-wide leading-9">
         Get Started with KoinX for FREE
       </h1>
@@ -16,7 +23,7 @@ const GetStartedSection = () => {
         alt="img"
         width={200}
         height={200}
-        className="my-4 ml-4"
+        className="my-4 ml-4 hidden lg:block"
       />
       <Button
         variant="secondary"

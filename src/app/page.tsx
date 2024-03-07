@@ -30,6 +30,10 @@ export default async function Home() {
       <div className="bg-white md:mt-16 mx-6 md:mx-0 p-10 py-16 overflow-hidden flex items-center justify-center">
         <YouMayAlsoLikeSection />
       </div>
+      <div className="flex flex-col gap-y-4 mt-6 xl:hidden items-center">
+        <GetStartedSection />
+        <TrendingSection />
+      </div>
     </main>
   );
 }

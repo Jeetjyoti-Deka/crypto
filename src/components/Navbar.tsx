@@ -7,7 +7,7 @@ import MobileNav from "./MobileNav";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-sm min-h-[72px]">
-      <Image src="/next.svg" alt="logo" width={100} height={100} />
+      <Image src="/images/logo.png" alt="logo" width={100} height={100} />
       <div className="md:flex items-center gap-x-7 hidden">
         {NAV_LINKS.map((link, i) => (
           <NavLink key={i} link={link} />
