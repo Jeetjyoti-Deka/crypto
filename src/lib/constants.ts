@@ -40,3 +40,34 @@ export const TEAM_MEMBERS = [
     img: "/images/team_img_3.png",
   },
 ];
+
+export const PROGRESS = [
+  {
+    title: "Buy",
+    value: 76,
+    color: "bg-green-500",
+  },
+  {
+    title: "Hold",
+    value: 8,
+    color: "bg-slate-300",
+  },
+  {
+    title: "Sell",
+    value: 16,
+    color: "bg-red-500",
+  },
+];
+
+export const KEY_EVENT_CARDS = [
+  {
+    img: "/icons/news.svg",
+    iconBgColor: "green-500",
+    cardBgColor: "green-100",
+  },
+  {
+    img: "/icons/arrow-progress.svg",
+    iconBgColor: "red-500",
+    cardBgColor: "red-100",
+  },
+];
