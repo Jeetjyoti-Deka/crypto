@@ -7,7 +7,7 @@ type TeamMemberProps = {
 
 const TeamMember = ({ name, img }: TeamMemberProps) => {
   return (
-    <div className="flex items-start gap-x-6 bg-secondary-blue py-3 px-4 rounded-[8px]">
+    <div className="flex flex-col md:flex-row items-center md:items-start gap-x-6 bg-secondary-blue py-3 px-4 rounded-[8px]">
       <div className="flex flex-col items-center gap-y-1 min-w-[120px]">
         <Image
           src={img}

@@ -44,7 +44,7 @@ const AboutBitcoinSection = () => {
       <h3 className="font-semibold text-2xl mt-6 mb-3">
         Already Holding Bitcoin?
       </h3>
-      <div className="flex items-stretch gap-x-4">
+      <div className="flex flex-col lg:flex-row w-full items-stretch  gap-x-6 gap-y-6">
         {CALCULATE_LINKS.map((link, i) => (
           <CalculateLink
             key={i}
