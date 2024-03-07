@@ -6,6 +6,7 @@ import PerformancesSection from "@/components/PerformancesSection";
 import SentimentSection from "@/components/SentimentSection";
 import TeamMember from "@/components/TeamMember";
 import TeamSection from "@/components/TeamSection";
+import Tokenomics from "@/components/Tokenomics";
 import TrendingSection from "@/components/TrendingSection";
 import YouMayAlsoLikeSection from "@/components/YouMayAlsoLikeSection";
 
@@ -19,6 +20,7 @@ export default async function Home() {
           <PerformancesSection />
           <SentimentSection />
           <AboutBitcoinSection />
+          <Tokenomics />
           <TeamSection />
         </div>
         <div className="justify-self-center w-full pr-6 hidden xl:flex flex-col items-center gap-y-4 mt-6">
