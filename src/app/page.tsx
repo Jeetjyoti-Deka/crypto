@@ -13,10 +13,9 @@ import YouMayAlsoLikeSection from "@/components/YouMayAlsoLikeSection";
 export default async function Home() {
   return (
     <main>
-      {/* <Chart /> */}
       <div className="grid grid-cols-1 xl:grid-cols-body">
         <div className="justify-self-center flex flex-col gap-y-4 px-6 2xl:pl-12">
-          {/* <BitcoinSection /> */}
+          <BitcoinSection />
           <PerformancesSection />
           <SentimentSection />
           <AboutBitcoinSection />
