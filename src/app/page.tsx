@@ -2,6 +2,7 @@ import AboutBitcoinSection from "@/components/AboutBitcoinSection";
 import BitcoinSection from "@/components/BitcoinSection";
 import Chart from "@/components/Chart";
 import GetStartedSection from "@/components/GetStartedSection";
+import PerformancesSection from "@/components/PerformancesSection";
 import SentimentSection from "@/components/SentimentSection";
 import TeamMember from "@/components/TeamMember";
 import TeamSection from "@/components/TeamSection";
@@ -15,6 +16,7 @@ export default async function Home() {
       <div className="grid grid-cols-1 xl:grid-cols-body">
         <div className="justify-self-center flex flex-col gap-y-4 px-6 2xl:pl-12">
           {/* <BitcoinSection /> */}
+          <PerformancesSection />
           <SentimentSection />
           <AboutBitcoinSection />
           <TeamSection />

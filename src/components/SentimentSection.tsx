@@ -15,7 +15,7 @@ const SentimentSection = () => {
     <section className="p-6 bg-white rounded-[6px]">
       <h2 className="font-semibold text-2xl mb-4">Sentiment</h2>
       <h4 className="font-semibold text-lg text-black/60 mb-4">Key Events</h4>
-      <div className="w-full flex items-center justify-center">
+      <div className="flex items-center justify-center">
         <Carousel className="w-full sm:max-w-full max-w-[250px]">
           <CarouselContent>
             {KEY_EVENT_CARDS.map((card, i) => (

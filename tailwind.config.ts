@@ -85,6 +85,8 @@ const config = {
           "linear-gradient(160deg, rgba(15,186,131,1) 0%, rgba(0,82,254,1) 100%)",
         calculate_link_2:
           "linear-gradient(160deg, rgba(250,160,2,1) 0%, rgba(247,50,76,1) 100%)",
+        performancebar:
+          "linear-gradient(90deg, rgba(247,50,76,1) 0%, rgba(250,160,2,1) 51%, rgba(15,186,131,1) 100%)",
       },
     },
   },
